@@ -118,3 +118,22 @@ footer h3 {
     background-color: #f86521;
     padding: 5px;
 }
+
+@media screen and (max-width: 415px) {
+    body {
+        padding-bottom: 30vh;
+    }
+    
+    .responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #conta-corrente {
+        border: none;
+    }
+
+    footer {
+        min-height: 20vh;
+    }
+}
